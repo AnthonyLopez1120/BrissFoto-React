@@ -6,6 +6,7 @@ import Splashpage from "./componets/Splashpage"
 import Blog from "./componets/Blog"
 import About from "./componets/About"
 import Contact from "./componets/Contact"
+import Opiniones from "./componets/Opiniones"
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/Blog" component={Blog} />
       <Route path="/About" component={About} />
       <Route path="/Contact" component={Contact} />
+      <Route path="/Opiniones" component={Opiniones} />
       
       
 

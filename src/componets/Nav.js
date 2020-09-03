@@ -47,6 +47,7 @@ function Nav () {
         <StyledLink to="/Blog">Blog</StyledLink>
         <StyledLink to="/About">About</StyledLink>
         <StyledLink to="/Contact">Contact</StyledLink>
+        <StyledLink to="/Opiniones">Opiniones</StyledLink>
     </NavWrapper>
     </>
     )
