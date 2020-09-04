@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const NavWrapper = styled.header`
+    background:white;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
