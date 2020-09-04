@@ -31,6 +31,7 @@ const Logo = styled.img`
     
     max-width: 100%; 
     max-height: 100%; 
+    font-family: 'Quicksand', sans-serif;
    
 `;
 
@@ -46,8 +47,8 @@ function Nav () {
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/Blog">Blog</StyledLink>
         <StyledLink to="/About">About</StyledLink>
+        <StyledLink to="/Experiencias">Experiencias</StyledLink>
         <StyledLink to="/Contact">Contact</StyledLink>
-        <StyledLink to="/Opiniones">Opiniones</StyledLink>
     </NavWrapper>
     </>
     )
