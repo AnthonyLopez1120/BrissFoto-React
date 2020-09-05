@@ -25,7 +25,8 @@ const properties = {
     transitionDuration: 1000,
     infinite: true,
     indicators: true,
-    arrows: true
+    arrows: true,
+  
 }
 
 
@@ -35,7 +36,10 @@ function Carousel () {
     return (
         <div className="slide-container">
 
-        <Fade {...properties}>
+        <Fade 
+            {...properties}
+           
+        >
 
           <div className="each-slide">
             <CarouselImg src={require("../images/1.jpg")}/>

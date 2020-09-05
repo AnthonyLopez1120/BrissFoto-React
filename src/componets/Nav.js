@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const NavWrapper = styled.header`
+    top: 0 ;
     background:white;
     box-sizing: border-box;
     display: flex;
@@ -11,11 +12,11 @@ const NavWrapper = styled.header`
     align-content: center;
     padding: 20px 20px 20px 20px;
     position: sticky;
-    top: 0;
     width: 100%;
     box-shadow: 0px 5px 5px #c4c4c4;
     height: 270px;
-    flex-wrap:wrap;
+	flex-wrap:wrap;
+	z-index: 11;
 `;
 
 const StyledLink = styled(Link)`
@@ -50,7 +51,7 @@ function Nav () {
         <StyledLink to="/About">About</StyledLink>
         <StyledLink to="/Experiencias">Experiencias</StyledLink>
         <StyledLink to="/Contact">Contact</StyledLink>
-    </NavWrapper>
+    </NavWrapper>       
     </>
     )
 }
