@@ -28,42 +28,42 @@ function Carousel () {
         >
 
           <div className="each-slide">
-            <CarouselImg src={require("../images/1.jpg")}/>
+            <CarouselImg src={require("../images/1.webp")}/>
               
           </div>
 
           <div className="each-slide">
-          <CarouselImg src={require("../images/2.jpg")}/>
+          <CarouselImg src={require("../images/2.webp")}/>
               
           </div>
 
           <div className="each-slide">
-          <CarouselImg src={require("../images/3.jpg")}/>
+          <CarouselImg src={require("../images/3.webp")}/>
             
           </div>
           
           <div className="each-slide">
-          <CarouselImg src={require("../images/4.jpg")}/>
+          <CarouselImg src={require("../images/4.webp")}/>
              
           </div>
           
           <div className="each-slide">
-          <CarouselImg src={require("../images/5.jpg")}/>
+          <CarouselImg src={require("../images/5.webp")}/>
                  
           </div>
           
           <div className="each-slide">
-          <CarouselImg src={require("../images/6.jpg")}/>
+          <CarouselImg src={require("../images/6.webp")}/>
                 
           </div>
           
           <div className="each-slide">
-          <CarouselImg src={require("../images/7.jpg")}/>
+          <CarouselImg src={require("../images/7.webp")}/>
                 
           </div>
           
           <div className="each-slide">
-          <CarouselImg src={require("../images/8.jpg")}/>
+          <CarouselImg src={require("../images/8.webp")}/>
                
           </div> 
 
