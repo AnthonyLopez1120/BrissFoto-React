@@ -9,7 +9,7 @@ const CarouselImg = styled.img`
 `;
 
 const properties = {
-    duration: 2000,
+    duration: 1000,
     transitionDuration: 1000,
     infinite: true,
     indicators: true,
