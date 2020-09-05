@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const NavWrapper = styled.header`
+   
     top: 0 ;
     background:white;
     box-sizing: border-box;
@@ -16,7 +17,8 @@ const NavWrapper = styled.header`
     box-shadow: 0px 5px 5px #c4c4c4;
     height: 270px;
 	flex-wrap:wrap;
-	z-index: 11;
+    z-index: 11;
+    font-family: 'Quicksand', sans-serif;
 `;
 
 const StyledLink = styled(Link)`
@@ -33,7 +35,7 @@ const Logo = styled.img`
     
     max-width: 100%; 
     max-height: 100%; 
-    font-family: 'Quicksand', sans-serif;
+    
    
 `;
 

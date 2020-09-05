@@ -1,5 +1,4 @@
 import React from "react"
-// import { Slide } from 'react-slideshow-image'
 import { Fade } from 'react-slideshow-image'
 import styled from "styled-components"
 import 'react-slideshow-image/dist/styles.css'
@@ -9,17 +8,6 @@ const CarouselImg = styled.img`
     width:90%;
 `;
 
-// const slideImages = [
-//     "../images/1.jpg",
-//     "../images/2.jpg",
-//     "../images/3.jpg",
-//     "../images/4.jpg",
-//     "../images/5.jpg",
-//     "../images/6.jpg",
-//     "../images/7.jpg",
-//     "../images/8.jpg"
-// ]
-
 const properties = {
     duration: 2000,
     transitionDuration: 1000,
@@ -28,8 +16,6 @@ const properties = {
     arrows: true,
   
 }
-
-
 
 function Carousel () {
 
