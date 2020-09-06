@@ -20,6 +20,9 @@ const NavWrapper = styled.header`
     z-index: 11;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
+    @media (max-width: 768px) {
+    justify-content: space-between;
+  }
     
     
 `;
