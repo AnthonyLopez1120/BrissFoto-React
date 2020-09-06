@@ -28,6 +28,7 @@ const NavWrapper = styled.header`
 
     @media (max-width: 768px) {
     justify-content: space-between;
+    font-size: 1.2rem;
   }
     
     
