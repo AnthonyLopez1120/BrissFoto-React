@@ -14,12 +14,15 @@ const NavWrapper = styled.header`
     padding: 20px 20px 20px 20px;
     position: sticky;
     width: 100%;
-    box-shadow: 0px 5px 5px #c4c4c4;
+    box-shadow: 0px 2px 2px #c4c4c4;
     height: 170px;
 	flex-wrap:wrap;
     z-index: 11;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
+    @media (max-width: 768px) {
+    justify-content: space-around;
+  }
     
     
 `;
@@ -54,7 +57,7 @@ function Nav () {
     <NavWrapper>
 
         <Imgdiv>
-            <Logo src={require("../images/logo.png")} alt='logo for briceida flor'/>
+            <Logo src={require("../images/logo2.png")} alt='logo for briceida flor'/>
         </Imgdiv>
         <StyledLink to="/">HOME</StyledLink>
         <StyledLink to="/Blog">BLOG</StyledLink>
