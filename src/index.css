@@ -16,6 +16,22 @@ body {
 	font-size: 62.5%;
   }
 
+  p {	font-size: 1.4rem;
+	  /* font-family: 'Roboto', sans-serif; */
+	  /* font-family: 'EB Garamond', serif;
+	  font-style: italic; */
+	  font-family: 'EB Garamond', serif;
+	
+  }
 
+  
+  h1{
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+  }
+  h2{
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+  }
 
 
