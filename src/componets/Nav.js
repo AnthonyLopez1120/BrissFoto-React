@@ -19,6 +19,7 @@ const NavWrapper = styled.header`
 	flex-wrap:wrap;
     z-index: 11;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
     
     
 `;
