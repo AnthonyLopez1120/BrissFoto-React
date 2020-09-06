@@ -21,7 +21,7 @@ const NavWrapper = styled.header`
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
     @media (max-width: 768px) {
-    justify-content: space-around;
+    justify-content: space-between;
   }
     
     

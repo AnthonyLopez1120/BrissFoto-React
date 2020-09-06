@@ -3,7 +3,9 @@ import React from "react"
 function Experiencias () {
 
     return(
-        <div>Experiencias</div>
+        <>
+        <h1>Experiencias</h1>
+        </>
     )
 }
 
