@@ -24,7 +24,7 @@ function Carousel () {
 
         <Fade {...properties}>
 
-          {/* <div className="each-slide">
+          <div className="each-slide">
             <CarouselImg src={require("../images/1.webp")}/>              
           </div>
 
@@ -39,7 +39,7 @@ function Carousel () {
           <div className="each-slide">
           <CarouselImg src={require("../images/4.webp")}/>             
           </div>
-           */}
+          
           <div className="each-slide">
           <CarouselImg src={require("../images/5.webp")}/>                 
           </div>
