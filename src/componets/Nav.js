@@ -18,8 +18,10 @@ const NavWrapper = styled.header`
     height: 170px;
 	flex-wrap:wrap;
     z-index: 11;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'EB Garamond', serif; */
+    /* font-family: Marcellus, serif; */
+   
     
     
     font-size: 1.5rem;
@@ -34,7 +36,10 @@ const NavWrapper = styled.header`
 const StyledLink = styled(Link)`
     text-decoration:none;
     color: dimgray;
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+     font-family: Marcellus, serif;
+     /* font-family: 'EB Garamond', serif; */
+
 
     &:hover {
      
