@@ -57,7 +57,7 @@ function Nav () {
     <NavWrapper>
 
         <Imgdiv>
-            <Logo src={require("../images/logo.png")} alt='logo for briceida flor'/>
+            <Logo src={require("../images/logo2.png")} alt='logo for briceida flor'/>
         </Imgdiv>
         <StyledLink to="/">HOME</StyledLink>
         <StyledLink to="/Blog">BLOG</StyledLink>
