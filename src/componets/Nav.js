@@ -19,7 +19,11 @@ const NavWrapper = styled.header`
 	flex-wrap:wrap;
     z-index: 11;
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    
+    
     font-size: 1.5rem;
+
     @media (max-width: 768px) {
     justify-content: space-between;
   }
@@ -30,6 +34,8 @@ const NavWrapper = styled.header`
 const StyledLink = styled(Link)`
     text-decoration:none;
     color: dimgray;
+    font-family: 'Quicksand', sans-serif;
+
     &:hover {
      
       border-bottom: dimgray solid 1px;
